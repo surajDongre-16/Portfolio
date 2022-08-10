@@ -460,6 +460,18 @@ input:checked + .slider:before {
   gap: 30px;
   width: 100%;
 }
+
+.navbar{
+  /* border: 1px solid; */
+  margin:auto;
+  height: 4rem;
+  width: 50%;
+  box-shadow: none;
+}
+.navbar h6{
+  cursor: pointer;
+}
+
 @keyframes typewriter {
   from {
     width: 0;

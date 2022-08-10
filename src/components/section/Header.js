@@ -1,6 +1,7 @@
 import React from "react";
 import HeaderButton from "../layouts/HeaderButton";
 import { header } from "../../profile";
+import Navbar from "../layouts/Navbar";
 
 const Header = () => {
   const scrollTo = () => {
@@ -38,6 +39,7 @@ const Header = () => {
           />
           <span className="slider round"></span>
         </label>
+        <Navbar/>
         <HeaderButton />
       </div>
       <img
