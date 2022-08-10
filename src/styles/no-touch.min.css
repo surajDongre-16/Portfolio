@@ -622,9 +622,4 @@ input:checked + .slider:before {
   .half form button {
     margin-left: -1%;
   }
-  .Photo {
-  background-color: #fff;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 }
