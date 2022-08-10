@@ -2,7 +2,7 @@
 
 Welcome to my portfolio website, thank you for checking it out. 
 
-### 🌐 [Repo](https://github.com/surajDongre-16/Portfolio) | [Live](https://www.yushi.dev/) 
+### 🌐 [Repo](https://github.com/surajDongre-16/Portfolio) | [Live](https://suraj-dev.netlify.app/) 
 
 If you like my portfolio website, please give a ⭐️! Thank you so much.
 
