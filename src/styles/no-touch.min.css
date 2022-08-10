@@ -619,4 +619,12 @@ input:checked + .slider:before {
     margin-left: 2rem;
     margin-right: auto;
   }
+  .half form button {
+    margin-left: -1%;
+  }
+  .Photo {
+  background-color: #fff;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 }
