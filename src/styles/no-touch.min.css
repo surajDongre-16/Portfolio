@@ -474,6 +474,17 @@ input:checked + .slider:before {
   cursor: pointer;
 }
 
+.hamburger {
+  font-size: xx-large;
+  display: none;
+}
+.ham-menu {
+  display: none;
+}
+.close-menu {
+  display: none;
+}
+
 @keyframes typewriter {
   from {
     width: 0;
@@ -604,6 +615,36 @@ input:checked + .slider:before {
   .half form button {
     width: 100%;
   }
+  .navbar > h6 {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    position: absolute;
+    left: -15vh;
+    top: 0;
+    cursor: pointer;
+  }
+  .ham-menu {
+    /* border: 1px solid; */
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    left: -15vh;
+    top: 3rem;
+    text-align: left;
+  }
+  .close-menu {
+    display: block;
+    color: #e96224;
+    font-size: xx-large;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    position: absolute;
+    left: -15vh;
+  }
 }
 @media (max-width: 320px) {
   .mere-skills {
@@ -636,4 +677,15 @@ input:checked + .slider:before {
   .half form button {
     margin-left: -1%;
   }
+  .navbar > h6 {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    position: absolute;
+    left: -15vh;
+    top: 0;
+    cursor: pointer;
+  }
+
 }
