@@ -13,7 +13,7 @@ Or if you have any question/feedback, please do not hesitate to reach out to me!
 👤 **Suraj**
 
 - Github:[@Suraj](https://github.com/surajdongre-16) 
-- Linked:[LinkedIn](linkedin.com/in/suraj-dongre)
+- Linked:[LinkedIn](https://linkedin.com/in/suraj-dongre)
 
 # Technologies Used
 

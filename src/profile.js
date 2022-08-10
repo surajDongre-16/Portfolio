@@ -62,7 +62,7 @@ const social = {
   github: "https://github.com/surajdongre-16",
   linkedin: "https://linkedin.com/in/suraj-dongre",
   resume:
-    "https://drive.google.com/file/d/1Me8M7Epkb3tWAMI7KJb2BTVafce92v__/view?usp=sharing",
+    "https://drive.google.com/drive/folders/1PZg3v55KYYy2ugblxC_I1QukWxVuqW_G?usp=sharing",
 };
 // Dont change anything here
 export {
