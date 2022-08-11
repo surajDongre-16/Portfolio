@@ -6,7 +6,7 @@ import { FaHeart } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="parallax">
+    <div className="parallax" id="contact">
       <div data-aos="zoom-in-up" data-aos-once="true" className="git-form">
         <>
           <div className="git-head-div text-center mx-auto">
