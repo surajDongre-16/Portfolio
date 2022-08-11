@@ -484,6 +484,36 @@ input:checked + .slider:before {
 .close-menu {
   display: none;
 }
+.project-card {
+  width: 100%;
+  display: flex;
+}
+.project-descrip {
+  width: 60%;
+  margin: 2% auto;
+  text-align: justify;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project-btn {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  height: 3rem;
+}
+.project-btn > button {
+  background-color: var(--hover-color);
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.project-btn > button a {
+  text-decoration: none;
+  color: #fff;
+}
 
 @keyframes typewriter {
   from {
@@ -645,6 +675,31 @@ input:checked + .slider:before {
     position: absolute;
     left: -10vh;
   }
+  .project-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .project-descrip {
+    width: 100%;
+  }
+  /* .project-btn {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 3rem;
+  }
+  .project-btn > button {
+    background-color: var(--hover-color);
+    color: white;
+    border-radius: 5px;
+    border: none;
+  }
+  .project-btn > button a {
+    text-decoration: none;
+    color: #fff;
+  } */
 }
 @media (max-width: 320px) {
   .mere-skills {
@@ -687,5 +742,7 @@ input:checked + .slider:before {
     top: 0;
     cursor: pointer;
   }
-
+  .project-btn {
+    width: 100%;
+  }
 }

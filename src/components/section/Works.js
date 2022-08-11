@@ -22,6 +22,8 @@ const Works = () => {
                 url={x.url}
                 name={x.name}
                 skills={x.skills}
+                description={x.description}
+                live={x.live}
               />
             ))}
         </div>

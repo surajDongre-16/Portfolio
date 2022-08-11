@@ -26,6 +26,9 @@ const projects = [
     name: "Urban Company",
     skills: ["REACT, REDUX, JS, CHAKRA UI, HTML, CSS "],
     url: "https://github.com/HemanthKumar-CN/melted-lace-627",
+    description:
+      "Urban Company (formerly known as Urban Clap) is an Indian gig marketplace that offers home repairs and maintenance services, and home beauty and wellness services. In 2014, the company was founded by Abhiraj Singh Bhal, Varun Khaitan and Raghav Chandra. It was valued at USD 2.8 billion after its employee stock sale programme concluded in December 2021. As of 2021, the company operates in 30+ Indian cities and in the UAE, Singapore, Australia and Saudi Arabia.",
+    live: "https://urban-clap-clone.netlify.app/",
   },
   {
     // Add image in './styles/images.css' in #project1
@@ -33,6 +36,9 @@ const projects = [
     name: "Kimaye Clone",
     skills: ["REACT, REDUX, JS, CHAKRA UI, HTML, CSS "],
     url: "https://github.com/surajDongre-16/Kimaye-Clone",
+    description:
+      "Kimaye became India's first brand to retail fresh fruits in the USA. Kimaye wants to give you assurance and earn your trust by consistently delivering the safest and highest-quality fruits at your doorstep.",
+    live: " https://kimaye-hamara.netlify.app/",
   },
   {
     // Add image in './styles/images.css' in #project2
@@ -40,6 +46,9 @@ const projects = [
     name: "Ssense Clone",
     skills: ["HTML, CSS, JS, Bootstrap"],
     url: "https://github.com/surajDongre-16/Ssense-clone",
+    description:
+      "SSENSE is a multi-brand retailer based in Montreal, Canada specialising in the sale of designer fashion and high end streetwear. It was founded as an e-commerce platform in 2003 by three brothers: Rami, Bassel and Firas Atallah. The company delivers to 114 countries around the world and operates websites in French, English, Japanese and Korean.",
+    live: "https://ssense-6040cb.netlify.app/",
   },
   {
     // Add image in './styles/images.css' in #project3
@@ -47,8 +56,10 @@ const projects = [
     name: "Max fasion Clone",
     skills: ["HTML, CSS, JS"],
     url: "https://github.com/surajDongre-16/MAX-Fashion-clone-web-17",
+    description:
+      "Max Fashion is an Indian fashion brand under the banner of the Mumbai based Landmark Group. That was opened by an Indian foreigner in the UAE, Micky Jagtiani The brand was first launched in May 2004, in the Middle East in UAE.Max, at present, is the largest fashion brand in the Middle East, North Africa, South East Asia & India, with over 500 stores encompassing 8.5 million sq.ft., across 20 countries.",
+    live: "https://max-fashion-fw17.netlify.app/",
   },
-  
 ];
 
 const section5Title = "Get in Touch";
