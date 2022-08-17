@@ -710,11 +710,19 @@ input:checked + .slider:before {
   .mere-skills {
     grid-template-columns: repeat(3, 1fr);
   }
+ .see {
+  position: absolute;
+  padding: 5px 15px;
+  padding-bottom: 7px;
+  border-radius: 3px;
+  left: 50%;
+  top: 90%;
+}
   .seelink1 {
-    left: 25%;
+    left: 20%;
   }
   .seelink2 {
-    left: 75%;
+    left: 80%;
   }
   .parallax {
     height: 120vh;
@@ -783,6 +791,9 @@ input:checked + .slider:before {
   }
   .inline-block {
     margin-top: -2rem;
+  }
+  .project-btn {
+    width: 100%;
   }
   /* .Photo{
     display: block;
