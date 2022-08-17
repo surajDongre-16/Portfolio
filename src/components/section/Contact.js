@@ -88,7 +88,13 @@ const Contact = () => {
                   <br />
                 </div>
                 {social.resume && (
-                  <a title="Download Resume" href={social.resume} download>
+                  <a
+                    title="Download Resume"
+                    href={social.resume}
+                    target="_blank"
+                    download
+                    rel="noreferrer"
+                  >
                     <i className="fas fa-download"></i>
                   </a>
                 )}

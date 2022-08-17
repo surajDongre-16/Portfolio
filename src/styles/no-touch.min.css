@@ -362,7 +362,7 @@ textarea:focus {
   padding: 5px 15px;
   padding-bottom: 7px;
   border-radius: 3px;
-  left: 44%;
+  left: 45%;
   top: 90%;
 }
 .fa-eye {
@@ -514,6 +514,33 @@ input:checked + .slider:before {
 .project-btn > button a {
   text-decoration: none;
   color: #fff;
+}
+
+.seelink1{
+  left: 40%;
+  top: 90%;
+}
+
+.seelink2{
+  left: 55%;
+  top: 90%;
+}
+
+.fa-linkedin{
+  color: #fff;
+  font-size: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 7px;
+}
+.fa-github{
+  color: #fff;
+  font-size: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 7px;
 }
 
 @keyframes typewriter {
