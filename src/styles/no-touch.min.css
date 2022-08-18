@@ -105,9 +105,13 @@ button:focus {
   background-color: #fff;
   background-size: contain;
   background-repeat: no-repeat;
+  border-radius: 50%;
 }
 .Photo.inverse-dark {
   background-color: #000;
+}
+.about-pic {
+  display: none;
 }
 .about-text {
   width: 80%;
@@ -710,14 +714,14 @@ input:checked + .slider:before {
   .mere-skills {
     grid-template-columns: repeat(3, 1fr);
   }
- .see {
-  position: absolute;
-  padding: 5px 15px;
-  padding-bottom: 7px;
-  border-radius: 3px;
-  left: 50%;
-  top: 90%;
-}
+  .see {
+    position: absolute;
+    padding: 5px 15px;
+    padding-bottom: 7px;
+    border-radius: 3px;
+    left: 50%;
+    top: 90%;
+  }
   .seelink1 {
     left: 20%;
   }
@@ -795,9 +799,18 @@ input:checked + .slider:before {
   .project-btn {
     width: 100%;
   }
-  /* .Photo{
+  .about-pic {
+    background-color: #fff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
     display: block;
-  } */
+    width: 90%;
+    margin: auto;
+  }
+  .about-pic.inverse-dark {
+    background-color: #000;
+  }
 }
 @media (max-width: 320px) {
   .mere-skills {

@@ -38,7 +38,7 @@ const projects = [
     url: "https://github.com/surajDongre-16/Kimaye-Clone",
     description:
       "Kimaye became India's first brand to retail fresh fruits in the USA. Kimaye wants to give you assurance and earn your trust by consistently delivering the safest and highest-quality fruits at your doorstep.",
-    live: " https://kimaye-hamara.netlify.app/",
+    live: "  https://kimaye-project.netlify.app",
   },
   {
     // Add image in './styles/images.css' in #project2

@@ -1,8 +1,11 @@
 
 /* Add your profile image here */
 .Photo{
-    background-image: url('https://media-exp2.licdn.com/dms/image/C4D03AQHBwq0IT3OrdQ/profile-displayphoto-shrink_800_800/0/1653136779258?e=1661990400&v=beta&t=0Pr5atja-rwVMrDVdZ7XNSuyQeVaGttVjoPh8a05ZAw');
+    background-image: url('https://avatars.githubusercontent.com/u/102052466?v=4');
 }
+/* .about-pic{
+    background-image: url('https://avatars.githubusercontent.com/u/102052466?v=4');
+} */
 /* Projects Photo */
 .project1{
     background-image: url('https://locus.sh/assets/img/infographic/top-trends-for-on-demand-home-services-market/banner.svg');
