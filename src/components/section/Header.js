@@ -3,7 +3,7 @@ import HeaderButton from "../layouts/HeaderButton";
 import { header } from "../../profile";
 import Navbar from "../layouts/Navbar";
 
-const Header = () => {
+const Header = ({setTheme,theme}) => {
   const scrollTo = () => {
     window.scrollTo({
       top: 100000,
@@ -21,9 +21,14 @@ const Header = () => {
       x.item(i).classList.toggle("inverse-dark");
     }
 
-    if (document.documentElement.classList.contains("dark-mode"))
+    if (document.documentElement.classList.contains("dark-mode")){
       localStorage.setItem("mode", "Dark");
-    else localStorage.setItem("mode", "Light");
+      setTheme("Dark")
+    }
+    else {
+      localStorage.setItem("mode", "Light");
+      setTheme("Light")
+    }
   };
 
   return (

@@ -799,8 +799,14 @@ input:checked + .slider:before {
   .project-btn {
     width: 100%;
   }
+
+  .inverse-dark {
+    filter: invert(1) hue-rotate(180deg);
+    -webkit-filter: invert(1) hue-rotate(180deg);
+    -moz-filter: invert(1) hue-rotate(180deg);
+  }
   .about-pic {
-    background-color: #fff;
+    background-color: #000;
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 50%;
@@ -808,8 +814,16 @@ input:checked + .slider:before {
     width: 90%;
     margin: auto;
   }
+  .ab-pic {
+    filter: invert(1) hue-rotate(180deg);
+    -webkit-filter: invert(1) hue-rotate(180deg);
+    -moz-filter: invert(1) hue-rotate(180deg);
+  }
   .about-pic.inverse-dark {
     background-color: #000;
+    /* filter: invert(1) hue-rotate(180deg);
+  -webkit-filter: invert(1) hue-rotate(180deg);
+  -moz-filter: invert(1) hue-rotate(180deg); */
   }
 }
 @media (max-width: 320px) {

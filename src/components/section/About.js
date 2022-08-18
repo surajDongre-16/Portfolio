@@ -2,7 +2,8 @@ import React from "react";
 import Skills from "../layouts/Skills";
 import { about, section2title } from "../../profile";
 
-const About = () => {
+const About = ({theme}) => {
+
   return (
     <div id="about" className="effect2">
       <div data-aos="zoom-in-up" data-aos-once="true" className="row">
@@ -19,7 +20,7 @@ const About = () => {
           </div>
           <img
             id="not-dark2"
-            className="about-pic"
+            className={`about-pic ${theme === "Dark" ? "ab-pic" : ""}`}
             src="https://avatars.githubusercontent.com/u/102052466?v=4"
             alt="suraj-dongre"
           />
