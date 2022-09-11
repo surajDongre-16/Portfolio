@@ -23,6 +23,16 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
+    name: "MyNetDiary Clone",
+    skills: ["NODEJS, EXPRESS, MONGODB, MONGOOSE, REACT, JS, CHAKRA UI"],
+    url: "https://github.com/surajDongre-16/sloppy-impulse-7268",
+    description:
+      "MyNetDiary is an online and mobile (iOS, Android) calorie and exercise tracker with over 15 million members worldwide. The average active member loses 1.4 pounds a week, and about 27 pounds total.  MyNetDiary guides your weight loss journey with accurate calorie counting, weight loss forecasting and personalized daily insights.",
+    live: "https://my-net-diary.netlify.app/",
+  },
+  {
+    // Add image in './styles/images.css' in #project1
+    id: "project2",
     name: "Urban Company",
     skills: ["REACT, REDUX, JS, CHAKRA UI, HTML, CSS "],
     url: "https://github.com/HemanthKumar-CN/melted-lace-627",
@@ -32,7 +42,7 @@ const projects = [
   },
   {
     // Add image in './styles/images.css' in #project1
-    id: "project2",
+    id: "project3",
     name: "Kimaye Clone",
     skills: ["REACT, REDUX, JS, CHAKRA UI, HTML, CSS "],
     url: "https://github.com/surajDongre-16/Kimaye-Clone",
@@ -42,7 +52,7 @@ const projects = [
   },
   {
     // Add image in './styles/images.css' in #project2
-    id: "project3",
+    id: "project4",
     name: "Ssense Clone",
     skills: ["HTML, CSS, JS, Bootstrap"],
     url: "https://github.com/surajDongre-16/Ssense-clone",
@@ -52,7 +62,7 @@ const projects = [
   },
   {
     // Add image in './styles/images.css' in #project3
-    id: "project4",
+    id: "project5",
     name: "Max fasion Clone",
     skills: ["HTML, CSS, JS"],
     url: "https://github.com/surajDongre-16/MAX-Fashion-clone-web-17",
