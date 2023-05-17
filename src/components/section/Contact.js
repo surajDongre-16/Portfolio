@@ -84,6 +84,9 @@ const Contact = () => {
                   )}
                   <br />
                 </div>
+                <div style={{ margin: "5%" }}>
+                  Give a call at <b>8668535859</b>
+                </div>
                 {social.resume && (
                   <a
                     title="Download Resume"

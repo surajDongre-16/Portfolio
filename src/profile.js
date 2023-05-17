@@ -85,6 +85,9 @@ const social = {
   resume:
     "https://drive.google.com/drive/folders/1PZg3v55KYYy2ugblxC_I1QukWxVuqW_G?usp=sharing",
 };
+
+const gitStats =
+  "https://github-readme-stats.vercel.app/api?username=surajDongre-16";
 // Dont change anything here
 export {
   animation,
@@ -96,4 +99,5 @@ export {
   section2title,
   section3Title,
   section5Title,
+  gitStats,
 };

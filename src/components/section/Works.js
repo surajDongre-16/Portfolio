@@ -1,6 +1,7 @@
 import React from "react";
+import GitHubCalendar from "react-github-calendar";
 import Project from "../layouts/Project";
-import { projects, section3Title } from "../../profile";
+import { gitStats, projects, section3Title } from "../../profile";
 
 const Works = () => {
   return (
@@ -26,6 +27,17 @@ const Works = () => {
                 live={x.live}
               />
             ))}
+        </div>
+        <div style={{ marginTop: "5%" }}>
+          <h2>Github Stats</h2>
+          <GitHubCalendar username="surajDongre-16" />
+          <div className="stats">
+            <img src={gitStats} alt="github_stats" />
+            <img
+              src="https://github-readme-streak-stats.herokuapp.com/?user=surajDongre-16"
+              alt="surajDongre-16"
+            />
+          </div>
         </div>
       </div>
     </>
