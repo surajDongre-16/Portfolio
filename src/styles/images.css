@@ -1,34 +1,34 @@
-
 /* Add your profile image here */
-.Photo{
-    background-image: url('https://avatars.githubusercontent.com/u/102052466?v=4');
+.Photo {
+  background-image: url("https://avatars.githubusercontent.com/u/102052466?v=4");
 }
 /* .about-pic{
     background-image: url('https://avatars.githubusercontent.com/u/102052466?v=4');
 } */
 /* Projects Photo */
-.project1{
-    background-image: url('https://ideausher.com/wp-content/uploads/2019/12/diet-and-nutrition-app-1.png');
-    cursor: none;
+/* https://img.freepik.com/premium-vector/man-woman-with-smartphones_113065-19.jpg?w=360 */
+.project1 {
+  background-image: url("https://img.freepik.com/premium-vector/man-woman-with-smartphones_113065-19.jpg?w=360");
+  cursor: none;
 }
-.project2{
-    background-image: url('https://locus.sh/assets/img/infographic/top-trends-for-on-demand-home-services-market/banner.svg');
-    cursor: none;    
+.project2 {
+  background-image: url("https://ideausher.com/wp-content/uploads/2019/12/diet-and-nutrition-app-1.png");
+  cursor: none;
 }
-.project3{
-    background-image: url('https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/nizcgzbvct65wx8zsrho');
-    cursor: none;
+.project3 {
+  background-image: url("https://locus.sh/assets/img/infographic/top-trends-for-on-demand-home-services-market/banner.svg");
+  cursor: none;
 }
-.project4{
-    background-image: url('https://d1f00kj7ad54bu.cloudfront.net/Pictures/1024x536/3/5/0/9350_ssense_logo_906744.png');
-    cursor: none;
+.project4 {
+  background-image: url("https://res.cloudinary.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/nizcgzbvct65wx8zsrho");
+  cursor: none;
 }
-.project5{
-    background-image: url('https://i.pinimg.com/originals/ea/fb/3d/eafb3de569bd97f4d280e66781094b0a.png');
-    cursor: none;
+.project5 {
+  background-image: url("https://d1f00kj7ad54bu.cloudfront.net/Pictures/1024x536/3/5/0/9350_ssense_logo_906744.png");
+  cursor: none;
 }
 
-.project6{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
-    cursor: none;
+.project6 {
+  background-image: url("https://i.pinimg.com/originals/ea/fb/3d/eafb3de569bd97f4d280e66781094b0a.png");
+  cursor: none;
 }

@@ -8,7 +8,6 @@ const Navbar = () => {
 
   const openHam = () => {
     setTrig(!trig);
-    console.log(trig);
   };
   const closeHam = () => {
     setTrig(!trig);

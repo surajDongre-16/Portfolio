@@ -23,6 +23,16 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
+    name: "Chit-Chat App",
+    skills: ["NODEJS, EXPRESS, MONGODB, REACT, JS, CHAKRA UI, SOCKET IO"],
+    url: "https://github.com/surajDongre-16/MERN-Chat-app",
+    description:
+      "Chit-Chat is a modern and intuitive real-time chat application built using the popular MERN (MongoDB, Express.js, React.js, Node.js) stack. It provides users with a seamless and interactive chatting experience, allowing them to connect with friends, colleagues, or communities in real-time.",
+    live: "https://chit-chat-sd.netlify.app/",
+  },
+  {
+    // Add image in './styles/images.css' in #project1
+    id: "project2",
     name: "MyNetDiary Clone",
     skills: ["NODEJS, EXPRESS, MONGODB, MONGOOSE, REACT, JS, CHAKRA UI"],
     url: "https://github.com/surajDongre-16/sloppy-impulse-7268",
@@ -32,7 +42,7 @@ const projects = [
   },
   {
     // Add image in './styles/images.css' in #project1
-    id: "project2",
+    id: "project3",
     name: "Urban Company",
     skills: ["REACT, REDUX, JS, CHAKRA UI, HTML, CSS "],
     url: "https://github.com/HemanthKumar-CN/melted-lace-627",
@@ -42,7 +52,7 @@ const projects = [
   },
   {
     // Add image in './styles/images.css' in #project1
-    id: "project3",
+    id: "project4",
     name: "Kimaye Clone",
     skills: ["REACT, REDUX, JS, CHAKRA UI, HTML, CSS "],
     url: "https://github.com/surajDongre-16/Kimaye-Clone",
@@ -52,7 +62,7 @@ const projects = [
   },
   {
     // Add image in './styles/images.css' in #project2
-    id: "project4",
+    id: "project5",
     name: "Ssense Clone",
     skills: ["HTML, CSS, JS, Bootstrap"],
     url: "https://github.com/surajDongre-16/Ssense-clone",
@@ -62,7 +72,7 @@ const projects = [
   },
   {
     // Add image in './styles/images.css' in #project3
-    id: "project5",
+    id: "project6",
     name: "Max fasion Clone",
     skills: ["HTML, CSS, JS"],
     url: "https://github.com/surajDongre-16/MAX-Fashion-clone-web-17",

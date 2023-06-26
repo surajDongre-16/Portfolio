@@ -3,7 +3,7 @@ import HeaderButton from "../layouts/HeaderButton";
 import { header } from "../../profile";
 import Navbar from "../layouts/Navbar";
 
-const Header = ({setTheme,theme}) => {
+const Header = ({ setTheme, theme }) => {
   const scrollTo = () => {
     window.scrollTo({
       top: 100000,
@@ -21,13 +21,12 @@ const Header = ({setTheme,theme}) => {
       x.item(i).classList.toggle("inverse-dark");
     }
 
-    if (document.documentElement.classList.contains("dark-mode")){
+    if (document.documentElement.classList.contains("dark-mode")) {
       localStorage.setItem("mode", "Dark");
-      setTheme("Dark")
-    }
-    else {
+      setTheme("Dark");
+    } else {
       localStorage.setItem("mode", "Light");
-      setTheme("Light")
+      setTheme("Light");
     }
   };
 
@@ -44,7 +43,7 @@ const Header = ({setTheme,theme}) => {
           />
           <span className="slider round"></span>
         </label>
-        <Navbar/>
+        <Navbar />
         <HeaderButton />
       </div>
       <img
